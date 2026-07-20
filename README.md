@@ -4,7 +4,7 @@ A community-built Windows interface for creating and editing JSON configuration 
 
 ## Why this project exists
 
-Pinball King started this project after working through the difficult process of creating a reliable Pinscape Pico configuration for a real virtual pinball cabinet. The JSON format is powerful, but configuring GPIO assignments, shifted buttons, output safety settings, nudge hardware, and a plunger by hand can be intimidating and syntax-sensitive.
+I started this project after working through the difficult process of creating a reliable Pinscape Pico configuration for a real virtual pinball cabinet. The JSON format is powerful, but configuring GPIO assignments, shifted buttons, output safety settings, nudge hardware, and a plunger by hand can be intimidating and syntax-sensitive.
 
 Once that cabinet had a known-good working configuration, we worked backward from it to build a visual generator. The goal is to make simple Pinscape Pico setups approachable while still exposing the advanced functions that make the platform valuable. This project is being shared as a way for Pinball King to give back to the virtual pinball community.
 
@@ -25,7 +25,7 @@ The generator can:
 
 This is an experimental tester preview, not a proven public release. Development started from one personally tested cabinet configuration. We do not yet know whether every supported sensor, output type, imported configuration, or first-time workflow is generated correctly.
 
-The first public phase is intended to answer a basic question: can other builders use the program without private guidance and produce configurations that the official Pinscape Pico Config Tool accepts and reports correctly?
+The first public phase is intended to answer two basic questions: can other builders use the program without private guidance and produce configurations that the official Pinscape Pico Config Tool accepts and reports correctly? Does the tool work as intended in the sense of building from scratch? I have tested this tool, but only in the sense that I can test the devices I have connected, and the configuration file needed to send that config to the pico via the pinscape pico config tool.
 
 Always review a generated configuration in the official Pinscape Pico Config Tool before programming hardware. Do not connect or activate high-power outputs based only on this generator's display.
 
@@ -49,7 +49,7 @@ To build the standalone Windows executable locally, run `Build Windows EXE.bat`.
 
 Created by **Pinball King** as a community give-back project for virtual pinball builders.
 
-Pinscape Pico, its firmware, official Config Tool, configuration format, and documentation are created by [Michael J. Roberts (MJR)](https://github.com/mjrgh). Visit the [Pinscape Pico repository](https://github.com/mjrgh/PinscapePico) and [MJR's Pinscape resources](https://mjrnet.org/pinscape/) for the official project and documentation.
+Pinscape Pico, its firmware, official Config Tool, configuration format, and documentation are created by [Michael J. Roberts (MJR)](https://github.com/mjrgh). Visit the [Pinscape Pico repository](https://github.com/mjrgh/PinscapePico) for the official project and documentation.
 
 This generator is an independent community project. It is not an official Pinscape release and is not endorsed by or affiliated with Michael J. Roberts or the Pinscape project.
 
